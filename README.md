@@ -1,6 +1,6 @@
 <h1>Landing Page com PHP e JavaScript</h1>
 
-Landing page simples que utiliza PHP para conectar-se a um banco de dados e JavaScript para verificar os campos de entrada (input) em um formulário HTML.
+Landing page simples que utiliza PHP para conectar-se a um banco de dados e JavaScript para verificar os campos de entrada em um formulário HTML, utilizando Regex.
 
 <h2>Pré-requisitos</h2>
 
@@ -51,6 +51,8 @@ No arquivo conexao.php, são configurados as informações de conexão com o seu
 
 <h2>Validação de Campos com JavaScript</h2>
 O arquivo js/validation.js contém funções JavaScript para verificar os campos de entrada no formulário. Você pode adicionar lógica personalizada para validar os campos de acordo com seus requisitos.
+
+Foi utilizado Regex na lógica de verificação dos campos.
 
 <h3>Função validação do DDD</h3>
 
